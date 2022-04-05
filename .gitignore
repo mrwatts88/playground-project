@@ -1,0 +1,5 @@
+.key.txt
+.etherscan-key.txt
+node_modules
+artifacts
+cache

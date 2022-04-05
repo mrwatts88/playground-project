@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 250px;
+}
+
+.inner {
+  display: flex;
+}
+
+.operators {
+  margin-top: 30px;
+}
+
+.operator {
+  display: flex;
+  align-items: center;
+}
+
+.operator button {
+  margin-left: 10px;
+}
+
+button {
+  width: 100%;
+  margin: 5px 0;
+}
+
+input {
+  width: -webkit-fill-available
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
